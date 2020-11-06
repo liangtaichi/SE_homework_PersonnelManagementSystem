@@ -6,7 +6,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>SE_homework_PersonnelManagementSystem</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>untitled</module>
+    </modules>
     <dependencies>
         <!-- 单元测试 -->
         <dependency>
