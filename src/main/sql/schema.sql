@@ -7,7 +7,7 @@ CREATE TABLE 'Employee'{
     'post' varchar(10) NOT NULL COMMENT'岗位',
     'wages' int NOT NULL COMMENT'工资',
     'performance' varchar (80) COMMENT'绩效说明',
-    'totalWages' varchar (12)
+    'totalWages' varchar (12) COMMENT'总工资'
     PRIMARY KEY ("user_id")
 }ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='员工表格';
 
