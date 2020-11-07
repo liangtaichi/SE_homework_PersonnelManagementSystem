@@ -15,6 +15,7 @@ CREATE TABLE 'Employee'{
 CREATE TABLE 'Login'{
     'user_id' bigint(20) NOT NULL AUTO_INCREMENT COMMENT'员工号',
     'password' varchar(18) NOT NULL COMMENT'密码',
+    'Authority' varchar(12) NOT NULL COMMENT'权限说明'
     PRIMARY KEY ("user_id")
 }ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='账号密码表';
 

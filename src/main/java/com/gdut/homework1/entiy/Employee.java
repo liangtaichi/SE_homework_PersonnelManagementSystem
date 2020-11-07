@@ -20,6 +20,20 @@ public class Employee {
     String performance;
     String totalwages;
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "user_id=" + user_id +
+                ", name='" + name + '\'' +
+                ", introduce='" + introduce + '\'' +
+                ", department='" + department + '\'' +
+                ", post='" + post + '\'' +
+                ", wage=" + wage +
+                ", performance='" + performance + '\'' +
+                ", totalwages='" + totalwages + '\'' +
+                '}';
+    }
+
     public int getUser_id() {
         return user_id;
     }
