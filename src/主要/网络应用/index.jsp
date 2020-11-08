@@ -37,7 +37,7 @@
 
 <style>
 body{
-    background: url('bj.jpg');
+    background-color: gray ;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
