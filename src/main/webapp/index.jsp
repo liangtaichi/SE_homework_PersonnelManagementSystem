@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=drive-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="login.css">
+
+    <!-- 引入vue-->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <!--link rel="stylesheet" href="login.css"-->
     <!-- font-awesome 图标字体 http://www.fontawesome.com.cn/faicons/#web-application -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
     <title>登录页面</title>

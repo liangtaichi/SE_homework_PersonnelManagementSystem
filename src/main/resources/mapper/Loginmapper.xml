@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gdut.homework1.dao.LoginDao">
+	<resultMap type="com.gdut.homework1.entity.LoginEmployee" id="loginMap">
+		<id property="id" column="id" />
+		<result property="Authority" column="Authority" />
+		<result property="password" column="password" />
+	</resultMap>
+
+	<!-- 此处select标签的id值对应Mapper类中方法名 -->
+	<select id="getUserById" parameterType="string" resultMap="loginMap">
+		<!-- 此处写sql语句,#{Mapper类传入的参数} -->
+		select * from LoginEmployee where user_id = #{user_id}
+	</select>
+
+</mapper>
