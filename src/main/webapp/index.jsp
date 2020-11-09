@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=drive-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< HEAD
 
     <!-- 引入vue-->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -12,6 +13,8 @@
     <!-- 引入组件库 -->
     <script src="https://unpkg.com/element-ui/lib/index.js"></script>
     <!--link rel="stylesheet" href="login.css"-->
+=======
+>>>>>>> 2acfbb97142aa5b385961ece1a31a7e01c60011d
     <!-- font-awesome 图标字体 http://www.fontawesome.com.cn/faicons/#web-application -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
     <title>登录页面</title>
