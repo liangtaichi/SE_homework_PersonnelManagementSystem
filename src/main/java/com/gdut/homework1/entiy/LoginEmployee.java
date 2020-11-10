@@ -1,6 +1,6 @@
 package com.gdut.homework1.entiy;
 
-public class LoginEployee {
+public class LoginEmployee {
     int user_id;
     String password;
     String authority;
