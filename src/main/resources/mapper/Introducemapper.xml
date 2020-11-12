@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gdut.homework1.dao.IntroduceDao">
+    <!-- 根据用户id查询简历-->
+    <select id="getIntroduce" parameterType="LoginEmployee" resultType="String">
+        select introduce from Employee where user_id=#{user_id}
+    </select>
+
+    <!-- 增加简历 -->
+    <update id="addIntroduce"  >
+        UPDATE Employee set introduce = #{introduce}  where user_id = #{loginEmployee.user_id}
+
+    </update>
+
+
+    <!-- 修改简介 -->
+    <update id="updateIntroduce" parameterType="LoginEmployee" >
+
+        update Employee
+        <set >
+
+            <if test="introduce != null">
+                introduce = #{introduce},
+            </if>
+        </set>
+        where user_id = #{user_id}
+
+    </update>
+
+    <!-- 删除简介 -->
+    <update id="deleteIntroduce"  >
+        UPDATE Employee set introduce = " "  where user_id = #{loginEmployee.user_id}
+    </update>
+</mapper>
