@@ -46,48 +46,48 @@
 
 
 <style>
-    body{
-        background-color: gray ;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-    }
-    #login-box{
-        width: 30%;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 15%;
-        text-align: center;
-        background: #00000060;
-        padding: 20px 50px;
-    }
-    #login-box h1{
-        color: #fff;
-    }
-    #login-box .form .item input{
-        margin-top: 15px;
-    }
-    #login-box .form i{
-        font-size: 18px;
-        color: #fff;
-    }
-    #login-box .form .item input {
-        width: 180px;
-        font-size: 18px;
-        border: 0;
-        border-bottom: 2px solid#fff;
-        padding: 5px 10px;
-        background:#ffffff00;
-        color: #fff;
-    }
-    #login-box button{
-        margin-top: 15px;
-        width: 180px;
-        height: 30px;
-        font-size: 20px;
-        font-weight: 700;
-        color: #fff;
-        background:linear-gradient(to right,#f30909 0%,#4013e6e1 100%);
-        border: 0;
-        border-radius: 15px;
-    }
+body{
+    background-color:  whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+#login-box{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background: #00000060;
+    padding: 20px 50px;
+}
+#login-box h1{
+    color: #444444 ;
+}
+#login-box .form .item input{
+    margin-top: 15px;
+}
+#login-box .form i{
+    font-size: 18px;
+    color: #fff;
+}
+#login-box .form .item input {
+    width: 180px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid#fff;
+    padding: 5px 10px;
+    background:#ffffff00;
+    color: #fff;
+}
+#login-box button{
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background:linear-gradient(to right,#B0C4DE   0%, #00BFFF 100%);
+    border: 0;
+    border-radius: 15px;
+}  
 </style>
