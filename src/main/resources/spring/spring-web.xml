@@ -30,4 +30,10 @@
 
     <!-- 4.扫描web相关的bean -->
     <context:component-scan base-package="com.gdut.homework1.web" />
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.gdut.homework1.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
