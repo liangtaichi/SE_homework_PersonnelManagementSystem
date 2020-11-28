@@ -1,7 +1,11 @@
 package com.gdut.homework1.entiy;
 
+import lombok.Data;
+
+@Data
 public class Employee {
     /**
+
      * @user_id 员工号
      * @name 员工姓名
      * @introduce 简介
